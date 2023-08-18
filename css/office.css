@@ -1,0 +1,58 @@
+#office {
+  
+}
+#office .wrap {
+  max-width: 100%;
+}
+#office .wrap h2 {
+  
+}
+#office .wrap ul {
+  height: 325px;
+}
+#office .wrap ul li {
+  width: 50%;
+  background-position: center;
+  background-size: 100%; 
+  transition: all 1s ease-in-out;
+}
+#office .wrap ul li:hover{
+  background-size: 120%; 
+}
+#office .wrap ul li a {
+  height: 100%;
+  color: white;
+}
+#office .wrap ul li a hgroup {
+  display: table-cell;
+  width: 100%;
+  vertical-align: middle;
+  text-align: center;
+}
+#office .wrap ul li a hgroup h3 {
+  display: block;
+  font-size: 15px;
+  font-weight: 600;
+  color: #fff;
+}
+#office .wrap ul li a hgroup h4 {
+  display: block;
+  padding-top: 7px;
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 1.25;
+  color: #fff;
+}
+#office .wrap ul li a span.arrow {
+  background-image: url(../img/arrow.svg);
+  font-size: 0;
+  width: 25px;
+  height: 25px;
+  background-size: contain;
+}
+#office .wrap ul li:nth-child(1) {
+  background-image: url(https://www.ka.co.kr/wp-content/themes/kai/images/main/main-banner-office.jpg);
+}
+#office .wrap ul li:nth-child(2) {
+  background-image: url(https://www.ka.co.kr/wp-content/themes/kai/images/main/main-banner-factory.jpg);
+}

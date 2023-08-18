@@ -1,0 +1,63 @@
+#stockir {
+  
+}
+#stockir div.wrap {
+  max-width: 1200px;
+}
+#stockir div.wrap article {
+  width: calc(100% / 2);
+}
+#stockir div.wrap article h2 {
+  
+}
+#stockir div.wrap article.stock {
+  border-right: 1px solid;
+  padding-right: 30px;
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: auto auto;
+  row-gap: 12px;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+#stockir div.wrap article.stock h2 {
+  order: 1;
+  grid-column: 1 / span 2;
+}
+#stockir div.wrap article.stock p.price {
+  order: 3;
+  grid-row: 2 / span 2;
+  /*! justify-content: center; */
+  display: flex;
+  align-items: center;
+}
+#stockir div.wrap article.stock time {
+  order: 2;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+#stockir div.wrap article.stock p.up {
+  order: 4;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+#stockir div.wrap article.ir {
+  padding-left: 30px;
+}
+#stockir div.wrap article.ir h2 {
+  
+}
+#stockir div.wrap article.ir ul {
+  
+}
+#stockir div.wrap article.ir ul li {
+  
+}
+#stockir div.wrap article.ir ul li a {
+  display: flex;
+  justify-content: space-between;
+}
+#stockir div.wrap article.ir ul li a time {
+  
+}

@@ -1,0 +1,56 @@
+#about {
+  
+}
+#about .wrap {
+  background-color: #f8f8f8;
+}
+#about .wrap h2 {
+  
+}
+#about .wrap ul {
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 20px;
+  margin-bottom: 150px;
+}
+
+#about .wrap ul li {
+  width: calc(100% / 3);
+}
+#about .wrap ul li:nth-child(2){
+  border-right: 1px solid #666;
+  border-left: 1px solid #666;
+}
+#about .wrap ul li svg path {
+  transition: all 1s;
+}
+#about .wrap ul li:hover svg path {
+  stroke: #ff00cb;
+  stroke-width: 5;
+}
+/* #about .wrap ul li:before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 80px;
+  background-image: url(../img/about1.svg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#green .wrap ul li:nth-of-type(2):before{
+  background-image: url(../img/about2.svg);
+}
+#green .wrap ul li:nth-of-type(3):before{
+  background-image: url(../img/about3.svg);
+} */
+#about .wrap ul li h3 {
+  
+  line-height: 3;
+}
+#about .wrap ul li p {
+  
+}
+#about .wrap ul li p span {
+  
+}

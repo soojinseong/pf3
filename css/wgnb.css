@@ -1,0 +1,42 @@
+div.wgnb {
+  position: absolute;
+  left: 0;
+  top: 100px;
+  width: 100%;
+  background-color: rgba(0,0,0,0.6);
+  padding: 15px 0;
+  display: none;
+}
+
+div.wgnb div.center {
+  width: 586px;
+  margin: 0 auto;
+  justify-content: space-between;
+  transform: translateX(10px);
+}
+div.wgnb div.center div.wsub {
+  width: 92.5px;
+  border-right: 1px solid #fff;
+}
+div.wgnb div.center div.wsub:last-child {
+  border-right: none; 
+}
+div.wgnb div.center div.wsub:nth-child(3) {
+  
+}
+div.wgnb div.center div.wsub h2 { 
+  /*! display: block; */
+}
+div.wgnb div.center div.wsub ul {
+  
+}
+div.wgnb div.center div.wsub ul li {
+  
+}
+div.wgnb div.center div.wsub ul li a {
+  color: #ccc;  
+  /*! padding: 0 15px; */
+  line-height: 1.7;
+  display: block;
+  font-size: 15px;
+}

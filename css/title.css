@@ -1,0 +1,65 @@
+div#title {
+  background-image: url(../img/main.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 490px;
+  height: calc(100% + 66px);
+}
+div#title .wrap {
+  
+  position: relative;
+}
+div#title .wrap hgroup {
+  
+}
+div#title .wrap hgroup h2 {
+  
+}
+div#title .wrap hgroup h3 {
+  /*! font-style: normal; */
+  /* 첫글자를 대문자로 */
+  text-transform: capitalize;
+  /* 전부 소문자로 */
+  /*! text-transform: lowercase; */
+  /* 전부 대문자로 */
+  /*! text-transform: uppercase; */
+  /*! letter-spacing: 11px; */
+  word-spacing: 11px;
+}
+/* 배경아이콘처리 */
+/* div#title .wrap a.scroll {
+  position: absolute;
+  bottom: 20px;
+  background-color: #fff;
+} */
+div#title .wrap a.scroll{
+  position: absolute;
+  bottom: 86px;
+  /*! background-color: #fff; */
+  width: 100px;
+  height: 100px;
+  border: 1px solid #ccc;
+  font-size: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+div#title .wrap a.scroll::before{
+  content: "";
+  border-left: 3px solid #fff;
+  height: 30px;
+  display: block;
+}
+div#title .wrap a.scroll::after{
+  content: "";
+  border: 3px solid #fff;
+  height: 15px;
+  display: block;
+  width: 15px;
+  border-left-color: transparent;
+  border-bottom-color: transparent;
+  transform: rotate(135deg);
+  margin-top: -21px;
+}

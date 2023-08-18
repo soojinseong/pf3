@@ -1,0 +1,119 @@
+#business {
+}
+#business .wrap {
+  padding-top: 150px;
+}
+#business .wrap h2 {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+#business .wrap article {
+  padding: 100px 0;
+  position: relative;
+  max-width: 1200px;
+  /*! box-sizing: border-box; */
+  margin: 0 auto;
+}
+#business .wrap article:nth-of-type(2) {
+  /*! margin-left:1000px; */
+  padding-left: 40%;
+  box-sizing: border-box;
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+#business .wrap article h3 {
+  position: relative;
+  z-index: 2;
+}
+
+#business .wrap article h3 span {
+  padding: 9px 0 5px;
+  margin-left: -5px;
+  font-size: 70px;
+  font-weight: 200;
+  line-height: 1.25;
+  letter-spacing: -0.025em;
+  color: #222;
+}
+#business .wrap article:nth-of-type(3) span {color: #fff;}
+#business .wrap article p {
+  font-size: 16px;
+  margin-bottom: 20px;
+  position: relative;
+  z-index: 2;
+}
+#business .wrap article:nth-of-type(3) p {color: #fff;}
+#business .wrap article a { 
+  font-size: 16px;
+  color: #666;
+  position: relative;
+  z-index: 2;
+  overflow: hidden;
+}
+#business .wrap article a:hover{
+  background-color: #333;
+  color: white;
+}
+#business .wrap article a::after{
+  content: "";
+  width: 0;
+  height: 100%;
+  display: inline-block;
+  position: absolute;
+  left: 0;
+  background-color: red;
+  transform: skewX(-30deg);
+  transform-origin: 0 0;
+  transition: all 1s;
+  z-index: -1;
+}
+#business .wrap article a:hover::after{
+  width: 120%;
+}
+#business .wrap article:nth-of-type(1)::after{
+  content: "";
+  width: 692px;
+  height: 740px;
+  display: block;
+  background-image: url(../img/Screenshot1.png);
+  position: absolute;
+  right: 100px;
+  top: -244px;
+  z-index: 2;
+}
+#business .wrap article:nth-of-type(2)::before{
+  content: "";
+  width: 508px;
+  height: 700px;
+  display: block;
+  background-image: url(../img/Screenshot2.png);
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 2;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+#business .wrap article:nth-of-type(2)::after{
+  content: "";
+  width: 975px;
+  height: 877px;
+  display: block;
+  background-image: url(../img/Screenshot3.png);
+  position: absolute;
+  top: -188px;
+  z-index: 1;
+  right: -200px;
+  background-size: cover;
+}
+#business .wrap article:nth-of-type(3){
+  background-image: url(../img/Screenshot4.png);
+  background-size: cover;
+  background-position: center;
+  width: auto;
+  box-sizing: border-box;
+  padding: 200px 0;
+  padding-left: calc((100% - 1200px) /2);
+  z-index: 0;
+  color: #fff;
+}
